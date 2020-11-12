@@ -8,11 +8,11 @@ public class Pie extends Food {
         this.filling = filling;
     }
 
-    public void consume(){
-        System.out.println(this + "съедено");
+    public void consume() {
+        System.out.println(this + " съеден");
     }
 
-    public String getFilling(){
+    public String getFilling() {
         return filling;
     }
 
@@ -20,7 +20,7 @@ public class Pie extends Food {
         this.filling = filling;
     }
 
-    public String toString(){
+    public String toString() {
         return super.toString() + " с начинкой '" + filling.toUpperCase() + "'";
     }
 }

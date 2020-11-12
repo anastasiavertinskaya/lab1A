@@ -6,12 +6,14 @@ public abstract class Food implements Consumable{
         this.name = name;
     }
     public String getName() {
+
         return name;
     }
     public void setName(String name) {
+
         this.name = name;
     }
-    public String toString(){
+    public String toString() {
         return name;
     }
     public boolean equals(Object arg0) {

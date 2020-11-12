@@ -2,17 +2,17 @@ package bsu.rfe.java.group7.lab1.Vertinskaya.varA2;
 
 public class Apple extends Food {
     private String size;
-    public Apple(String part){
+    public Apple(String size){
         super("Яблоко");
         this.size = size;
     }
-    public void consume(){
-        System.out.println(this + "съедено");
+    public void consume() {
+        System.out.println(this + " съедено");
     }
-    public String getSize(){
+    public String getSize() {
         return size;
     }
-    public void setSize(){
+    public void setSize(String size) {
         this.size = size;
     }
     public boolean equals(Object arg0) {
